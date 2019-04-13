@@ -357,7 +357,7 @@ def WriteGNNinja(path, platform, host, options):
         '/D_WIN32_WINNT=0x0A00',
         '/FS',
         '/W4',
-        '/WX',
+        # '/WX',
         '/Zi',
         '/wd4099',
         '/wd4100',
